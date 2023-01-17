@@ -64,7 +64,7 @@ class Stopwatch extends Component {
               />
               <p className="timer-heading">Timer</p>
             </div>
-            <p className="timer-count">{this.getElapsedTimer()}</p>
+            <h1 className="timer-count">{this.getElapsedTimer()}</h1>
             <div className="btn-container">
               <button
                 className="start-btn"
